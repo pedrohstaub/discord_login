@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  app:
+    image: php8-grifos
+    volumes:
+      - ../discord_auth:/var/www/html
+    ports:
+      - "1201:80"
+      - "1202:8080"
+      - "1203:5555"
+    tty: true
+    container_name: discord_auth
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login_button">
+        <a  href="init-oauth.php"><img width="20%" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="login"></a>
+    </div>
+</body>
+
+<style>
+    body{
+        background-color: #272727;
+    }
+    .login_button{
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 30vh;
+    }
+</style>
+</html>
